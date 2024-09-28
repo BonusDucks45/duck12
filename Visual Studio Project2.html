@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id='text1'>Search in the Performance > Network track
+        You can now search requests in the Network track of the Performance panel and, additionally, see stack traces in Timings.</p>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    <script>
+        var divs = document.getElementsByClassName('box');
+        console.log(divs);
+        for (var i = 0; i < divs.length; i++) {
+            divs[i].style.height = '100px';
+            divs[i].style.width = '100px';
+            divs[i].style.backgroundColor = 'red'
+            divs[i].style.margin = '10px'
+            console.log(divs[i]);
+        }
+
+        for (var i = 1; i <divs.length; i+=2) {
+            divs[i].style.backgroundColor = 'dodgerblue'
+        }
+        // var paragraph = document.getElementById('text1');
+        // console.log(paragraph);
+        // paragraph.style.color = 'black';
+        // paragraph.style.fontSize = '40px'
+        // paragraph.style.fontFamily = 'Arial'
+    </script>
+</body>
+</html>
